@@ -1,0 +1,662 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu", serif;
+    box-sizing: border-box;
+}
+
+body {
+    /* overflow-x: hidden; */
+}
+
+/* Navbar Styles */
+.navbar {
+    width: 100%;
+    height: 3.6rem;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 33;
+    font-size: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+    font-family: "Exo 2", Arial;
+}
+
+.navbar .logo {
+    width: 10rem;
+    margin-left: 1rem;
+}
+
+/* a {
+    text-decoration: none;
+    color: black
+} */
+
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 8px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.navbar ul.btn {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-weight: 400;
+}
+
+.top {
+    width: 100%;
+    height: 1.5rem;
+    background-color: black;
+    color: #ffffff;
+    padding: 7px;
+    font-size: .85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-weight: 200;
+    font-family: "Exo 2", serif;
+
+}
+
+.navbar img {
+    width: 129px;
+    cursor: pointer;
+
+}
+
+.navbar .social-icons .btn {
+
+    width: 76px;
+    position: relative;
+    left: 11px;
+    padding: 16px 15px;
+}
+
+.navbar a {
+    display: flex;
+
+}
+
+
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    ;
+    align-items: center;
+    margin-right: 1em;
+
+}
+
+
+.social-icons img {
+    width: 1.6rem;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 1rem 1.1rem;
+
+    background-color: #da291c;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: #bb1a0e;
+}
+
+.selectors a {
+
+    padding: 10px 8px;
+
+}
+
+.selectors a:hover {
+
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+    transition: all 0.01s ease-in-out 0.1s;
+}
+div.before-main{
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;
+overflow: hidden;
+margin-bottom: 4rem;
+
+}
+
+div.before-main img{
+width: 100%;
+z-index: 1;
+}
+
+div.before-main img:hover {
+    transition: transform 0.5s ease;
+    /* smooth hover effect */
+    transform: scale(1.1);
+    /* Zoom by 10% */
+}
+
+div.before-main div.text-overlay {
+position: absolute;
+top: 19rem;
+left: -46rem;
+width: 100%;
+text-align: center;
+color: black;
+z-index: 2;
+align-items: center;
+}
+
+div.before-main .text-overlay h1 {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 380;
+    font-size: 6.5rem;
+}
+
+div.before-main .text-overlay h3 {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+
+div.before-main .text-overlay .btn {
+    width: 8rem;
+    margin: 0.8rem;
+}
+
+div.main-image {
+    width: 100%;
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+div.main-image img {
+    width: 100%;
+    z-index: 1;
+}
+
+div.main-image img:hover {
+    transition: transform 0.5s ease;
+    /* smooth hover effect */
+    transform: scale(1.1);
+    /* Zoom by 10% */
+}
+
+
+div.main-image div.text-overlay {
+    position: absolute;
+    top: 4rem;
+    width: 100%;
+
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+.text-overlay {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 300;
+}
+
+.text-overlay h1,
+h3 {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 300;
+}
+
+
+
+.text-overlay .btn {
+    margin: 1rem;
+}
+
+div.second-image {
+    position: relative;
+    margin-top: 1.5rem;
+}
+
+div.second-image img {
+
+    width: 100%;
+    height: 90vh;
+
+}
+
+div.second-image .text-overlay {
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 100%;
+    top: 28%;
+
+}
+
+div.second-image .text-overlay h1 {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 300;
+    font-size: 8rem;
+}
+
+div.second-image .text-overlay h3 {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 300;
+    font-size: 2.2rem;
+}
+
+div.second-image .text-overlay .btn {
+
+    margin: 1rem;
+}
+
+
+/* for third image */
+
+div.third-image {
+    position: relative;
+    margin-top: 4rem;
+}
+
+div.third-image img {
+    width: 100%;
+    height: 90vh;
+    filter: invert(0.3);
+}
+
+div.third-image .text-overlay {
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 100%;
+    top: 44%;
+    z-index: 1;
+
+}
+
+
+
+div.third-image .text-overlay h3 {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 300;
+    font-size: 2.2rem;
+}
+
+div.third-image .text-overlay .btn {
+    width: 13rem;
+    margin: 1rem;
+}
+
+/* for fourth image */
+
+div.fourth-image {
+
+    position: relative;
+    margin-top: 4rem;
+    overflow: hidden;
+
+}
+
+div.fourth-image img {
+
+    width: 100%;
+    height: 90vh;
+    z-index: 1;
+}
+
+div.fourth-image img:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.fourth-image .text-overlay {
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 100%;
+    top: 44%;
+    z-index: 2;
+
+}
+
+
+
+div.fourth-image .text-overlay h3 {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 300;
+    font-size: 2.2rem;
+}
+
+div.fourth-image .text-overlay .btn {
+    width: 10em;
+    margin: 1rem;
+}
+
+/* div.bats {
+    display: flex;
+    gap: 25px;
+    width: 100%;
+   
+    margin-top: 130px;
+    justify-content: center;
+           }
+
+
+
+div.bats h2 {
+    font-family: "Exo-2", sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    margin: 20px;
+}
+
+.bats .items img {
+    width: 450px;
+    height: 550px;
+    z-index: 4;
+}
+
+     div.bats .items img:hover {
+        transition: transform 0.3s ease; 
+    transform: scale(1.1); 
+} */
+
+div.bats {
+    display: flex;
+    width: 100%;
+    margin-top: 4rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+div.bats h2 {
+    font-family: "Exo-2", sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+
+div.bats .items {
+    width: 27rem;
+    height: 32rem;
+    position: relative;
+    overflow: hidden;
+    /* Ensures image stays inside the box */
+}
+
+.bats .items img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+    /* Smooth hover effect */
+}
+
+.bats .items img:hover {
+    transform: scale(1.1);
+    /* Zoom by 10% */
+}
+
+div.product {
+    display: flex;
+    width: 100%;
+    margin-top: 5rem;
+    justify-content: flex-start;
+    position: relative;
+    align-items: center;
+    font-family: "Exo-2", sans-serif;
+    flex-wrap: wrap;
+}
+
+div.product h1 {
+    position: absolute;
+    /* Position it within the parent */
+    top: -2rem;
+    /* Adjust the distance above the items */
+    left: 0;
+    /* Align it to the top-left */
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin-left: 2.5rem;
+}
+
+div.product .items {
+    margin: 2rem 1rem;
+}
+
+div.product .items h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 1rem 1rem;
+
+}
+
+div.product .items img {
+    width: 17.5vw;
+    height: 35vh;
+    z-index: 4;
+    filter: grayscale(100%);
+}
+
+div.product .items img:hover {
+    transition: transform 0.3s ease;
+    /* Smooth hover effect */
+    filter: none;
+}
+
+
+
+
+div.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+    /* align-items: center; */
+    width: 100%;
+    min-height: 47vh;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    margin-top: 2rem;
+    padding: 3rem 1.5rem;
+    /* padding: 50px 20px; */
+    box-sizing: border-box;
+}
+
+
+input::placeholder {
+    font-size: 1rem;
+    /* Adjust the font size as per your requirement */
+    color: #a4a4aa
+}
+
+
+div.footer ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.92rem;
+    font-weight: bold;
+    line-height: 2rem;
+    letter-spacing: -0.06em;
+}
+
+div.footer ul>li:hover {
+    color: rgb(122, 120, 120);
+    cursor: pointer;
+}
+
+div.footer dl {
+    display: flex;
+    flex-direction: column;
+}
+
+div.footer dl dt {
+    font-size: 0.95rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    letter-spacing: -0.06em;
+}
+
+div.footer dd {
+    font-size: 0.85rem;
+    display: flex;
+
+    line-height: 2rem;
+    color: #eee5e5;
+}
+
+div.footer dd:hover {
+
+    color: #727070;
+    cursor: pointer;
+}
+
+div.footer-right {
+    width: 33%;
+}
+
+div.footer input {
+    border: none;
+    background: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.8rem;
+    margin-bottom: -1.1rem;
+    padding: 1rem 5rem 1rem 0rem;
+    width: 21vw;
+}
+
+div.footer-mid {
+    margin-left: -30rem;
+}
+
+div.footer hr {
+    width: 21vw;
+    display: inline-block;
+}
+
+div.footer #signup.btn {
+    width: 10vw;
+    margin-left: 0.8rem;
+    position: relative;
+    bottom: 1.2rem;
+}
+
+
+
+div.footer .social-icons dd {
+    width: 23px;
+    background-color: #da291c;
+    padding: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.footer .social-icons dd:hover {
+    background-color: #bb1a0e;
+    transition: transform 0.3s ease;
+}
+
+
+
+div.footer .social-icons img {
+    width: 1rem;
+    filter: invert(100%);
+}
+
+div.fix-button {
+    position: fixed;
+    bottom: 1rem;
+    right: 1.5rem;
+
+}
+
+
+div.fix-button .btn {
+    width: 7.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem 0.7rem;
+    gap: 8px;
+    border-radius: 8px;
+    flex-wrap: wrap;
+}
+
+
+div.fix-button img {
+    width: 22px;
+    filter: invert(100%);
+    display: inline-block;
+}
+
+div.footer-bottom {
+    /* flex-basis: 100%; */
+    position: relative;
+    top: 3.2rem;
+    left: 1rem;
+    order: 1;
+    /* Yeh item ko doosri line pe place karega */
+    width: 100%;
+    /* Ensure full width */
+    display: flex;
+    
+}
+
+
+div.footer-bottom div.loc {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.loc select {
+    border: none;
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+.loc div.logo{
+    width: 1rem;
+    
+
+
+    display: inline-block;
+    
+}
