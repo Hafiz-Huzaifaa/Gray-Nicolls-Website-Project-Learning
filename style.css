@@ -9,9 +9,13 @@
 body {
     /* overflow-x: hidden; */
 }
+<<<<<<< HEAD
 img{
     object-fit: cover !important;
     }
+=======
+
+>>>>>>> 408e1cd460f7055263b5e3998d8c4fde30e6daf5
 /* Navbar Styles */
 .navbar {
     width: 100%;
@@ -171,8 +175,13 @@ div.before-main img:hover {
 
 div.before-main div.text-overlay {
 position: absolute;
+<<<<<<< HEAD
 top: 13rem;
 left: -26rem;
+=======
+top: 19rem;
+left: -46rem;
+>>>>>>> 408e1cd460f7055263b5e3998d8c4fde30e6daf5
 width: 100%;
 text-align: center;
 color: black;
@@ -296,6 +305,7 @@ div.third-image {
 div.third-image img {
     width: 100%;
     height: 90vh;
+<<<<<<< HEAD
 }
 .overlay{
     position: absolute;
@@ -304,6 +314,11 @@ div.third-image img {
     width: 100%;
     height: 100%
 }
+=======
+    filter: invert(0.3);
+}
+
+>>>>>>> 408e1cd460f7055263b5e3998d8c4fde30e6daf5
 div.third-image .text-overlay {
     position: absolute;
     color: white;
@@ -418,7 +433,11 @@ div.bats h2 {
 
 
 div.bats .items {
+<<<<<<< HEAD
     width: 19rem;
+=======
+    width: 27rem;
+>>>>>>> 408e1cd460f7055263b5e3998d8c4fde30e6daf5
     height: 32rem;
     position: relative;
     overflow: hidden;
@@ -473,7 +492,11 @@ div.product .items h2 {
 }
 
 div.product .items img {
+<<<<<<< HEAD
     width: 17.2vw;
+=======
+    width: 17.5vw;
+>>>>>>> 408e1cd460f7055263b5e3998d8c4fde30e6daf5
     height: 35vh;
     z-index: 4;
     filter: grayscale(100%);
@@ -573,12 +596,20 @@ div.footer-mid {
 }
 
 div.footer hr {
+<<<<<<< HEAD
     width: 81vw;
+=======
+    width: 21vw;
+>>>>>>> 408e1cd460f7055263b5e3998d8c4fde30e6daf5
     display: inline-block;
 }
 
 div.footer #signup.btn {
     width: 10vw;
+<<<<<<< HEAD
+=======
+    margin-left: 0.8rem;
+>>>>>>> 408e1cd460f7055263b5e3998d8c4fde30e6daf5
     position: relative;
     bottom: 1.2rem;
 }
@@ -610,7 +641,10 @@ div.fix-button {
     position: fixed;
     bottom: 1rem;
     right: 1.5rem;
+<<<<<<< HEAD
     z-index: 5;
+=======
+>>>>>>> 408e1cd460f7055263b5e3998d8c4fde30e6daf5
 
 }
 
@@ -667,6 +701,7 @@ div.footer-bottom div.loc {
     display: inline-block;
     
 }
+<<<<<<< HEAD
 
 /* Media Queries */
 @media (max-width: 1000px) {
@@ -831,3 +866,5 @@ div.footer-right {
         scale: .7;
     }
 }
+=======
+>>>>>>> 408e1cd460f7055263b5e3998d8c4fde30e6daf5
